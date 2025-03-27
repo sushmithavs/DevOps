@@ -45,9 +45,7 @@ Docker File : A script containing instructions to build a Docker image.
 Docker Image : A blueprint for creating a container. It contains the application code, libraries and dependencies.
 Container : A running instance of an image.
 
-**
-
-STEPS TO BE FOLLOWED IN DOCKER**
+**STEPS TO BE FOLLOWED IN DOCKER**
 
 1)Install Docker – Install Docker Desktop from docker.com
 2) Image Creation:
@@ -82,10 +80,8 @@ docker rm <container_id> - Removes a stopped container
 docker logs <container_id> - Show logs of a container
 docker inspect <container_id> - Get detailed info about a container
 docker exec -it <container_id> bash - Access a running container’s shell
-[if !supportLineBreakNewLine]
-[endif]
 
-DOCKER FILE
+**DOCKER FILE**
 1)Base image
 2) Set the working directory inside the container
 3) Copy application files into the container
@@ -138,8 +134,6 @@ Docker automatically use the storage driver according to the OS.
 Commands:
 docker info | grep "Storage Driver" - display the storage driver used by Docker
 
-[if !supportLineBreakNewLine]
-[endif]
 
 DOCKER NETWORK : allows containers to communicate with each other & with external networks.
 Types:
@@ -167,4 +161,4 @@ docker login - Login to Docker Hubdocker tag <image_id> <username>/<repo_name>:<
 docker push <username>/<repo_name>:<tag> - Push an image to Docker Hub
 docker logout - Logout from Docker Hub
 
-*********************************************************************************g
+************************************************************************************************************************
